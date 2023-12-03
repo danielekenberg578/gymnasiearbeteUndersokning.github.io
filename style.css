@@ -4,7 +4,7 @@
 }
 
 body {
-    padding-top: 60px; /* Adjust this value based on your navbar height */
+    padding-top: 60px; 
 }
 
 .navbar {
@@ -52,9 +52,9 @@ body {
 .product {
     margin: 20px;
     text-align: center;
-    border: 1px solid lightgrey; /* Add this line to add a border */
+    border: 1px solid lightgrey; 
     border-width: 5px;
-    padding: 10px; /* Optional: Add padding for better visual appearance */
+    padding: 10px; 
 }
 
 .product img {
@@ -65,7 +65,7 @@ body {
     margin-top: 10px;
 }
 
-/* Styles for the fixed navbar */
+
 .fixed-navbar {
     position: fixed;
     top: 0;

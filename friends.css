@@ -4,7 +4,7 @@
 }
 
 body {
-    padding-top: 60px; /* Adjust this value based on your navbar height */
+    padding-top: 60px; 
 }
 
 .navbar {
@@ -52,13 +52,7 @@ body {
     margin-top: 7%;
 }
 
-.friend {
-    /* Add any styles specific to the friend section */
-}
 
-.product-container {
-    /* Add any styles specific to the product container */
-}
 
 .product {
     margin: 20px;
@@ -76,7 +70,7 @@ body {
     margin-top: 10px;
 }
 
-/* Existing styles remain unchanged */
+
 
 .friend {
     margin-bottom: 20px;
@@ -90,7 +84,7 @@ body {
 }
 
 .friend-content img {
-    max-width: 100px; /* Adjust the width as needed */
+    max-width: 100px; 
     margin-right: 10px;
 }
 
@@ -100,6 +94,6 @@ body {
 
 .product-container img {
     padding-top: 10px;
-    max-width: 30%; /* Adjust the width as needed */
+    max-width: 30%; 
     margin-right: 5px;
 }
