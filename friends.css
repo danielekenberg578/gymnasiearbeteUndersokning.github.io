@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 60px; /* Adjust this value based on your navbar height */
+}
+
+.navbar {
+    background-color: rgb(37, 35, 35);
+    padding: 3% 0;
+}
+
+.navbardiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 2rem;
+    color: white;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.navList {
+    list-style: none;
+    padding: 0;
+}
+
+.navList li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.navList li a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.friend-container {
+    margin-top: 7%;
+}
+
+.friend {
+    /* Add any styles specific to the friend section */
+}
+
+.product-container {
+    /* Add any styles specific to the product container */
+}
+
+.product {
+    margin: 20px;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-width: 5px;
+    padding: 10px;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product p {
+    margin-top: 10px;
+}
+
+/* Existing styles remain unchanged */
+
+.friend {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid lightgrey;
+}
+
+.friend-content {
+    display: flex;
+    align-items: center;
+}
+
+.friend-content img {
+    max-width: 100px; /* Adjust the width as needed */
+    margin-right: 10px;
+}
+
+.product-container {
+    padding-top: 10px;
+}
+
+.product-container img {
+    padding-top: 10px;
+    max-width: 30%; /* Adjust the width as needed */
+    margin-right: 5px;
+}

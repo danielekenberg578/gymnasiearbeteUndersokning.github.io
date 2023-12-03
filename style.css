@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-top: 60px; /* Adjust this value based on your navbar height */
+}
+
+.navbar {
+    background-color: rgb(37, 35, 35);
+    padding: 3% 0;
+}
+
+.navbardiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo a {
+    font-size: 2rem;
+    color: white;
+    padding-left: 15px;
+    text-decoration: none;
+}
+
+.navList {
+    list-style: none;
+    padding: 0;
+}
+
+.navList li {
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.navList li a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.infiniteScroll {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5%;
+}
+
+.product {
+    margin: 20px;
+    text-align: center;
+    border: 1px solid lightgrey; /* Add this line to add a border */
+    border-width: 5px;
+    padding: 10px; /* Optional: Add padding for better visual appearance */
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product p {
+    margin-top: 10px;
+}
+
+/* Styles for the fixed navbar */
+.fixed-navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
