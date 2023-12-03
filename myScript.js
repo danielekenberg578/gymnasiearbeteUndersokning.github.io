@@ -5,7 +5,7 @@ const products = [
     { id: 3, name: 'Apple Airpods', image: 'bilder/appleAirpods.jpg' },
     { id: 4, name: 'JBL Flip 6', image: 'bilder/jblFlip6.jpg' },
     { id: 5, name: "Philips Airfryer 3000", image: "bilder/philipsAirfryer3000.png"},
-    { id: 6, name: "Philips 55&quot; OLED", image: "bilder/philipsOLED.png"},
+    { id: 6, name: "Philips OLED", image: "bilder/philipsOLED.png"},
 ];
 
 // Function to create a product element
