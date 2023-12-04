@@ -18,6 +18,10 @@ body {
     justify-content: space-between;
 }
 
+.navbardiv text{
+    max-width: 20%;
+}
+
 .logo a {
     font-size: 2rem;
     color: white;
